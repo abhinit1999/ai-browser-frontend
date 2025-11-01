@@ -8,11 +8,6 @@ function QueryForm({ setResponse, setLoading }) {
     setLoading(true);
 
     try {
-    //   const res = await fetch('https://ai-browser.onrender.com/query', {
-    //     method: 'POST',
-    //     headers: { 'Content-Type': 'application/json' },
-    //     body: JSON.stringify({ message }),
-    //   });
   const res = await fetch('https://ai-browser.onrender.com/query', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
