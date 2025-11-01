@@ -31,7 +31,7 @@ function App() {
   const [response, setResponse] = useState('');
 
   const handleQuery = async (query) => {
-    const res = await fetch('http://localhost:8000/query', {
+    const res = await fetch('https://ai-browser.onrender.com/query', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ message: query }),
