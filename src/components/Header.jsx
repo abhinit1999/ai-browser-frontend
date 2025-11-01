@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header className="text-center mt-24 mb-12">
+    <header className="text-center mt-0 mb-12"> {/* 🔧 Reduced from mt-24 to mt-6 */}
       <h1 className="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 drop-shadow-md">
         AI Personal Browser
       </h1>
